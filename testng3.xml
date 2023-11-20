@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Trial3">
+	<test name="includeAndExclude">
+		<classes>
+			<class name="com.abc.includeAndExclude.Facebook">
+			<methods>
+				<exclude name="loginWithValidData"></exclude> 
+			</methods>	
+			</class>
+		</classes>
+	</test>
+</suite>
+
+<!-- 1-Nov- Executed Correctly-->

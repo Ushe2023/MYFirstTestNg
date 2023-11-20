@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Listener">
+	  <parameter name="emailid" value="abc.com"></parameter>
+	  <parameter name="pas" value="asad"></parameter>
+	  <parameter name="emailid" value="abcd.com"></parameter>
+	  <parameter name="pas" value="asade"></parameter>
+	  
+	  <classes>
+		  <class name="com.abc.trial.Acaders"></class>
+	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
