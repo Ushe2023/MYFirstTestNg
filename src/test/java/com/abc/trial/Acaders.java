@@ -37,6 +37,8 @@ public class Acaders {
 	@Test(priority=1)
 	public void End() {
 		System.out.println("2nd Method: Success");
+		System.out.println("Today is monday 20-11");
+		
 	}
 	
 }
