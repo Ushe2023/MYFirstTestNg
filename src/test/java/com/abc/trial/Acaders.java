@@ -38,6 +38,7 @@ public class Acaders {
 	public void End() {
 		System.out.println("2nd Method: Success");
 		System.out.println("Today is monday 20-11");
+		System.out.println("Hi tuesday");
 		
 	}
 	
